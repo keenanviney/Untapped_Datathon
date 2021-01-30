@@ -1,0 +1,4 @@
+xargs < /Users/keenanv/Desktop/Portfolio_Projects/Curl_Everything.txt wget -U "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36"
+
+
+find . -type f -name '*.php' -print -exec iconv -f euc-kr -t utf-8 {} -o {}.utf8
